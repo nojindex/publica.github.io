@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+  --tercer-color:white;
+  --four--color:black;
+  --five--color:#96D4D4!important;
+
+}
+
+/*envabezado*/
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    margin-top: 25px;
+}
+
+.container img {
+    width: 50px;
+    height: 50px;
+    border-radius:10px;
+    color: green;
+}
+
+.container img:hover{
+    filter: drop-shadow(0 5px 15px rgb(68, 175, 6));
+    box-shadow:  0  0 50px greenyellow;
+}
+.container h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: cursive;
+    color: white;
+}
+
+.container h1:hover{
+    filter: drop-shadow(0 0 10px white);
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    cursor: pointer;
+    font-size:15px;
+    color: white;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.vineta{
+background-color: black;
+}
+
+
+.row #icono{
+    width:120px;
+    font-size:50px;
+}
+
+/*slogan*/
+.container-slog{
+    border-top: 3px solid black;
+    width:100%;
+    max-width: 1200px;
+    margin:  0 auto;
+    padding:20px;
+    margin-top: 15px;
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.container-slog h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+/*finishi-slogna*/
+
+/*Projectos*/
+
+.informacion-nosotros{
+    border-top: 3px solid black;
+   width:100%;
+   max-width: 1200px;
+   margin:  0 auto;
+   padding:20px;
+   margin-top: 15px;
+   border-bottom: 3px solid black;
+   border-radius: 10px;
+   background-color: black;
+
+}
+
+.informacion-nosotros:hover{
+    box-shadow: 0 0 10px black;
+}
+
+
+.informacion-nosotros h1{
+    font-size:35px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+}
+
+.infomation-cards-by-precis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infomation-Real{
+    width: 350px;
+    border-radius: 3px;
+    background-color: black;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.infomation-Real:hover{
+    transition: all 0.1s ease-out;
+    transform: rotate(2deg);
+    box-shadow: 0 0 10px  rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.infomation-Real img{
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin:  0 auto;
+    text-align: left;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.info-info p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    text-align: justify;
+}
+
+.info-info span{
+    text-align: left;
+    font-size:15px;
+}
+
+/*infomration*/
+
+.info-whatweare{
+    border-top: 2px solid black;
+    width:100%;
+    max-width: 1200px;
+    margin:  0 auto;
+    padding:20px;
+    margin-top: 15px;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: black;
+}
+
+.info-whatweare:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.info-whatweare h1{
+    font-size:35px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+}
+
+
+.row-information{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*information-por rengones*/
+
+.col-infomation-orange{
+    background-color:rgb(209, 103, 3);
+    padding:25px;
+    border-radius: 2px;
+    width: 500px;
+    margin: 15px;
+    border-style: dotted;
+    border-style: 1px dotted black;  
+    color: white; 
+}
+
+.col-infomation-orange:hover{
+    transition: all 0.1s ease-in-out;
+    transform: rotate(2deg);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    border-radius: 15px;
+    
+}
+
+.col-infomation-orange p{
+    text-align: justify;
+}
+
+.col-infomation-orange p::first-letter{
+    initial-letter: 2 1;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+/*black*/
+.col-infomation-black{
+    background-color: rgb(0, 160, 223);
+    padding:25px;
+    border-radius: 2px;
+    width: 500px;
+    margin: 15px;
+    border-style: dotted;
+    border-style: 1px dotted black; 
+    color: rgb(255, 255, 255);  
+}
+
+.col-infomation-black:hover{
+    transition: all 0.1s ease-in-out;
+    transform: rotate(2deg);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.col-infomation-black h1{
+    color: rgb(255, 255, 255);
+}
+
+.col-infomation-black p{
+    text-align: justify;
+}
+
+.col-infomation-black p::first-letter{
+    initial-letter: 2 1;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+/*red*/
+
+.col-infomation-red{
+    background-color:rgb(209, 36, 36);
+    padding:25px;
+    border-radius: 2px;
+    width: 500px;
+    margin: 15px;
+    border-style: dotted;
+    border-style: 1px dotted black; 
+    color: white;  
+}
+
+.col-infomation-red:hover{
+    transition: all 0.1s ease-in-out;
+    transform: rotate(2deg);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.col-infomation-red p{
+    text-align: justify;
+}
+
+.col-infomation-red p::first-letter{
+    initial-letter: 2 1;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+/*green*/
+
+.col-infomation-green{
+    background-color:green;
+    padding:25px;
+    border-radius: 2px;
+    width: 500px;
+    margin: 15px;
+    border-style: dotted;
+    border-style: 1px dotted black; 
+    color: white;  
+}
+
+.col-infomation-green:hover{
+    transition: all 0.1s ease-in-out;
+    transform: rotate(2deg);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.col-infomation-green p{
+    text-align: justify;
+}
+
+.col-infomation-green p::first-letter{
+    initial-letter: 2 1;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/*finish*/
+
+
+/*precios*/
+
+.info-precios{
+    width:100%;
+   max-width: 1200px;
+   margin:  0 auto;
+   padding:20px;
+   margin-top: 15px;
+   border-bottom: 3px solid black;
+   background-color: black;
+   border-radius:10px;
+}
+.info-precios:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.info-precios h1{
+    font-size:40px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+}
+
+.cards-precios{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.cardas-precios-info{
+    width: 100%;
+    border-radius: 3px;
+    background-color: purple;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+}
+.cardas-precios-info:hover{
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0 0 20px black;
+}
+
+.cardas-precios-info .first{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.panel{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.responsive{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+ .panel-price{
+    background-color:white;
+    width: 450px;
+    padding: 25px;
+    margin-top: 35px;
+    margin: 10px;
+    margin-top: 15px;
+}
+.panel-price h1{
+    font-size:25px;
+    color: black;
+}
+.panel-price:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.panel-price main{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+/*iconos contacto*/
+
+.container-iconos-web{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    margin-top: 25px;
+    height: 200px;
+}
+
+.container-iconos-web h1{
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.rows-iconos-style{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rows-iconos-style svg{
+    color: white;
+   margin: 15px;
+   font-size: 35px;
+   width: 50px;
+   height: 50px;
+}
+
+.rows-iconos-style svg:hover{
+    color:rgb(20, 248, 20);
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 1950px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        box-sizing: border-box;
+        top: 0;
+        position: static;
+        border-radius: none;
+    }
+    .container h1{
+        font-size:22px;
+        margin-right: 5px;
+    }
+    .row #icono{
+        width: 90px;
+        font-size: 35px;
+    }
+    body{
+        background-color: rgb(119, 26, 26);
+    }
+}

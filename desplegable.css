@@ -1,0 +1,70 @@
+.open{
+    width: 330px;
+    transition: all 0.1s ease-out;
+    position: fixed;
+    background-color:rgb(0, 0, 0);
+    margin-left: 10px;
+    height:580px;
+    color: white;
+    border-radius: 15px;
+    font-family: cursive;
+    /* border-style: dashed;*/
+    border: 3px solid white;
+    padding: 10px;
+}
+/*.open:hover{
+    background-color:white;
+    color: black;
+    border-right: 1px solid black;
+}*/
+.open:hover{
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.9);
+
+}
+.open h1{
+    text-align: center;
+    margin-top: 35px;
+    font-family: cursive;
+}
+
+.open .btn-first{
+    margin: 10px;
+    width: 165px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    border-radius:10px;
+    margin: 0 auto;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 30px;
+}
+.open .btn-first:hover{
+    box-shadow: 0 0 10px rgb(255, 6, 6);
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 10px white;
+
+}
+.open a{
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
+
+.open a:hover{
+    background-color: gray;
+}
+
+@media (max-width: 768px) {
+    .open{
+        width: 250px;
+        height: 675px;
+        margin-top: 10px;
+        border-radius: none;
+    }
+}
